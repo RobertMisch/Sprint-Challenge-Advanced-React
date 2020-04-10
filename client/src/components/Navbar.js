@@ -12,6 +12,7 @@ const Navbar = () => {
       <h1>Filler nav for Darkmode</h1>
       <div className="dark-mode__toggle">
         <div
+          data-testid="dark-mode"
           onClick={toggleMode}
           className={darkMode ? 'toggle toggled' : 'toggle'}
         />
